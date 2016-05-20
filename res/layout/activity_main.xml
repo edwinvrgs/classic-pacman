@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/RelativeLayout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/fondo"
+	android:orientation="vertical"
+	tools:context="${relativePackage}.${activityClass}" >
+
+	<Space
+		android:id="@+id/Space"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_gravity="fill_vertical" />
+
+	<ImageButton
+		android:id="@+id/boton_creditos"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginBottom="24dp"
+		android:background="@drawable/hall"
+		android:src="@drawable/creditos" />
+
+	<ImageButton
+		android:id="@+id/boton_puntajes"
+		style="@style/AppTheme"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginTop="25dp"
+		android:background="@drawable/hall"
+		android:src="@drawable/puntuaciones" />
+
+	<ImageButton
+		android:id="@+id/boton_inicio"
+		style="@style/AppTheme"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@+id/boton_creditos"
+		android:layout_alignParentLeft="true"
+		android:layout_marginBottom="14dp"
+		android:background="@drawable/hall"
+		android:src="@drawable/jugar" />
+
+</RelativeLayout>
