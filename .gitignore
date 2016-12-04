@@ -1,0 +1,10 @@
+/bin
+/libs
+/.0settings
+*.classpath
+*.xml
+*.project
+*.zip
+*.apk
+Thumbs.db
+*.png
