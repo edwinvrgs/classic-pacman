@@ -1,3 +1,3 @@
-Clon del famoso juego Pacman hecho en android
+#classic-pacman
 
-Proyecto personal para la asignatura de programación II en la Universidad Nacional Experimental del Táchira
+Clon del famoso juego Pacman, hecho en Java para Android
