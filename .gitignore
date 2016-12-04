@@ -1,6 +1,6 @@
 /bin
 /libs
-/.0settings
+/.settings
 *.classpath
 *.xml
 *.project
